@@ -1,0 +1,33 @@
+.bar-graph-container {
+    font-family: Arial, sans-serif; /* Or whichever font you prefer */
+    margin: 20px;
+    position: relative;
+}
+
+.bar-graph-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bar-graph-title {
+    font-size: 24px;
+    color: #333; /* Adjust the color to match your design */
+}
+
+.new-sales-invoice-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.new-sales-invoice-btn:hover {
+    background-color: #367c39; /* Darker green on hover */
+}
+
+/* Additional styles for the BarGraph component itself can go here */

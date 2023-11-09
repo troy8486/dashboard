@@ -1,0 +1,36 @@
+.bar-graph-container {
+    font-family: Arial, sans-serif; /* Or whichever font you prefer */
+    margin: 20px;
+    position: relative;
+}
+
+.bar-graph-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bar-graph-title {
+    font-size: 24px;
+    color: #333; /* Adjust the color to match your design */
+}
+
+.status-indicators {
+    display: flex;
+    align-items: center;
+}
+
+.status-rectangle.green-rectangle {
+    width: 20px; /* Width of the rectangle */
+    height: 20px; /* Height of the rectangle */
+    background-color: #4CAF50; /* Green background */
+    margin-right: 5px; /* Space between rectangle and text */
+    border-radius: 30%;
+}
+
+.status-text {
+    margin-right: 10px; /* Space after the text */
+    user-select: none; /* Prevent text selection */
+}
+
